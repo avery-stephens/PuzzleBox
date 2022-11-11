@@ -3,7 +3,9 @@
   "resourceVersion": "1.6",
   "name": "PuzzleBox",
   "resources": [
+    {"id":{"name":"anger","path":"sprites/anger/anger.yy",},"order":3,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
+    {"id":{"name":"spr_txtBox","path":"sprites/spr_txtBox/spr_txtBox.yy",},"order":3,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"textBoxOBJ","path":"objects/textBoxOBJ/textBoxOBJ.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
