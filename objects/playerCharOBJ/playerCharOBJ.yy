@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "playerCharOBJ",
   "spriteId": {
-    "name": "spr_Player",
-    "path": "sprites/spr_Player/spr_Player.yy",
+    "name": "spr_PlayerIdle",
+    "path": "sprites/spr_PlayerIdle/spr_PlayerIdle.yy",
   },
   "solid": false,
   "visible": true,
