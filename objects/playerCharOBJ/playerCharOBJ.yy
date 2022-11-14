@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "playerCharOBJ",
-  "spriteId": {
-    "name": "spr_Player",
-    "path": "sprites/spr_Player/spr_Player.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
