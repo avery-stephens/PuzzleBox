@@ -10,7 +10,6 @@
     {"id":{"name":"spr_EnemyIdle","path":"sprites/spr_EnemyIdle/spr_EnemyIdle.yy",},"order":8,},
     {"id":{"name":"Spr_noSeeWall","path":"sprites/Spr_noSeeWall/Spr_noSeeWall.yy",},"order":4,},
     {"id":{"name":"spr_playerIdle","path":"sprites/spr_playerIdle/spr_playerIdle.yy",},"order":7,},
-    {"id":{"name":"Obj_PLayer","path":"objects/Obj_PLayer/Obj_PLayer.yy",},"order":3,},
     {"id":{"name":"ObJ_noSeeWall","path":"objects/ObJ_noSeeWall/ObJ_noSeeWall.yy",},"order":1,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
