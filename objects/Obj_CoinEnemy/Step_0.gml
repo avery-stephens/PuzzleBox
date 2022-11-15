@@ -5,11 +5,11 @@
 switch(state)
 {
 	case estate.patrol:
-	if(distance_to_object(playerCharOBJ) < 80) state = estate.chase;
+	if(distance_to_object(Obj_PLayer) < 80) state = estate.chase;
 	break;
 	case estate.chase:
-	x_vel = (playerCharOBJ.x - x);
-	if(distance_to_object(playerCharOBJ) > 100) state = estate.idol;
+	x_vel = (Obj_PLayer.x - x);
+	if(distance_to_object(Obj_PLayer) > 100) state = estate.idol;
 	break;
 	case estate.attack:
 	break;
@@ -18,8 +18,11 @@ switch(state)
 	state = estate.patrol;
 	break;
 }
+//gravity
+if(y_vel < max_gravity){	
+	y_vel = y_vel + y_gravity;
+}
 
-y_vel = y_vel + y_gravity;
 
 // Horizontal collision
 if (place_meeting(x + x_vel, y, ObJ_noSeeWall)){
