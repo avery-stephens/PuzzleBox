@@ -21,7 +21,7 @@ x_vel = _move * run_speed;
 
 if(place_meeting(x,y + 1,ObJ_noSeeWall) && key_jump) 
 {
-	x_vel -= jump_vel;
+	y_vel -= jump_vel;
 }
 
 //colision
