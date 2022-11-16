@@ -5,7 +5,7 @@
 max_speed = 5;
 run_speed = max_speed;
 
-jump_vel = 5;
+jump_vel = 7;
 x_vel = 0;
 y_vel = 0;
 

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_CoinEnemy",
+  "name": "Obj_Gun",
   "spriteId": {
-    "name": "spr_EnemyIdle",
-    "path": "sprites/spr_EnemyIdle/spr_EnemyIdle.yy",
+    "name": "spr_Gun",
+    "path": "sprites/spr_Gun/spr_Gun.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
