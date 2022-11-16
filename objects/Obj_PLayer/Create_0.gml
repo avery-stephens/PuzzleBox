@@ -4,12 +4,12 @@
 max_speed = 5;
 run_speed = max_speed;
 
-jump_vel = 32;
+jump_vel = 28;
 x_vel = 0;
 y_vel = 0;
 canjump = 0;
 
 hp = 4;
 
-y_gravity = 1;
+y_gravity = 0.7;
 max_gravity = 5;
