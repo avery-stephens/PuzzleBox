@@ -28,4 +28,5 @@ hp = 4;
 
 y_gravity = 0.2;
 max_gravity = 5;
+is_hit = false;
 

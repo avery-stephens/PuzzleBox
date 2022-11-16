@@ -11,5 +11,5 @@ y_vel = 0;
 
 hp = 4;
 
-y_gravity = 0.2;
+y_gravity = 1;
 max_gravity = 5;

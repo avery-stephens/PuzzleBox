@@ -43,3 +43,9 @@ if (place_meeting(x, y + y_vel, ObJ_noSeeWall)){
 y += y_vel;
 
 if (x_vel !=0) image_xscale = sign(x_vel);
+
+// death
+if (hp) <= 0
+{
+    instance_destroy();
+}
