@@ -8,6 +8,7 @@
     {"id":{"name":"spr_Gun","path":"sprites/spr_Gun/spr_Gun.yy",},"order":9,},
     {"id":{"name":"spr_Bullet","path":"sprites/spr_Bullet/spr_Bullet.yy",},"order":10,},
     {"id":{"name":"Obj_ps","path":"objects/Obj_ps/Obj_ps.yy",},"order":5,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":6,},
     {"id":{"name":"Obj_Gun","path":"objects/Obj_Gun/Obj_Gun.yy",},"order":4,},
     {"id":{"name":"Obj_CoinEnemy","path":"objects/Obj_CoinEnemy/Obj_CoinEnemy.yy",},"order":1,},
     {"id":{"name":"spr_EnemyIdle","path":"sprites/spr_EnemyIdle/spr_EnemyIdle.yy",},"order":8,},

@@ -5,7 +5,7 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
-shoot_key = mouse_check_button_pressed(mb_left);
+//shoot_key = mouse_check_button_pressed(mb_left);
 
 
 
@@ -14,10 +14,19 @@ if(y_vel < max_gravity){
 	y_vel = y_vel + y_gravity;
 }
 
+canjump -= 1;
+if (canjump > 0) && key_jump {
+	y_vel = -27;
+	canjump = 0;
+	//audio_play_sound(jump, 2, false);
+}
+
 //movement
 var _move = key_right - key_left;
 
 x_vel = _move * run_speed;
+
+y_vel = y_vel + y_gravity;
 
 if(place_meeting(x,y + 1,ObJ_noSeeWall) && key_jump) 
 {
@@ -38,9 +47,6 @@ if (place_meeting(x+x_vel,y,ObJ_noSeeWall))
 	
 }
 x += x_vel;
-
-
-	
 
 if (place_meeting(x,y + y_vel,ObJ_noSeeWall))
 {
