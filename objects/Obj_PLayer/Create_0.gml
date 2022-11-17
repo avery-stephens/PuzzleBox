@@ -9,7 +9,7 @@ x_vel = 0;
 y_vel = 0;
 canjump = 0;
 
-hp = 4;
+hp = 50;
 
 y_gravity = 0.7;
 max_gravity = 5;

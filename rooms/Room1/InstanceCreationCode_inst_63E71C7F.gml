@@ -1,0 +1,1 @@
+Text = "Careful up ahead the\n currency is evil\n and out to get ya!\n Take em out Ca$hBandit!!";
