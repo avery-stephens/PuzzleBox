@@ -61,3 +61,8 @@ if (place_meeting(x,y + y_vel,ObJ_noSeeWall))
 	
 }
 y += y_vel;
+
+//invincablities frames
+if(ivf > 0){
+ivf--;
+}

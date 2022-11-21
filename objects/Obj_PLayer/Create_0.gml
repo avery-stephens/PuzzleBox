@@ -13,3 +13,5 @@ hp = 50;
 
 y_gravity = 0.7;
 max_gravity = 5;
+
+ivf =0;

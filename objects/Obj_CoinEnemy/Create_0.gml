@@ -17,7 +17,7 @@ enum estate{
 state = estate.idol
 
 
-max_speed = 5;
+max_speed = 2;
 run_speed = max_speed;
 
 jump_vel = 5;
@@ -28,5 +28,6 @@ hp = 4;
 
 y_gravity = 0.2;
 max_gravity = 5;
-is_hit = false;
+is_hit = false
+
 

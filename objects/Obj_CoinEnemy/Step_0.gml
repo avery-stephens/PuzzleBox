@@ -5,11 +5,12 @@
 switch(state)
 {
 	case estate.patrol:
-	if(distance_to_object(Obj_PLayer) < 40) state = estate.chase;
+	if(distance_to_object(Obj_PLayer) < 150) state = estate.chase;
 	break;
 	case estate.chase:
-	x_vel = (Obj_PLayer.x + x);
-	if(distance_to_object(Obj_PLayer) > 100) state = estate.idol;
+	x_vel = sign(Obj_PLayer.x - x);
+	run_speed = 3;
+	if(distance_to_object(Obj_PLayer) > 150) state = estate.idol;
 	break;
 	case estate.attack:
 	break;
@@ -24,11 +25,13 @@ if(y_vel < max_gravity){
 }
 
 
+// stop enemy form walking off a cliff
+
 
 
 // Horizontal collision
-if (place_meeting(x + x_vel, y, ObJ_noSeeWall)){
-    while (!place_meeting(x + sign(x_vel), y, ObJ_noSeeWall)){
+if (place_meeting(x + x_vel, y, ObJ_noSeeWall)) or (place_meeting(x + x_vel, y, Obj_enemyWall)){
+    while (!place_meeting(x + sign(x_vel), y, ObJ_noSeeWall)) and (!place_meeting(x + sign(x_vel), y, Obj_enemyWall)){
         x += sign(x_vel);
     }
     x_vel = -x_vel;
@@ -36,8 +39,8 @@ if (place_meeting(x + x_vel, y, ObJ_noSeeWall)){
 x += x_vel;
 
 // Verticle collision
-if (place_meeting(x, y + y_vel, ObJ_noSeeWall)){
-    while (!place_meeting(x, y + sign(y_vel), ObJ_noSeeWall))  {
+if (place_meeting(x, y + y_vel, ObJ_noSeeWall)) or  (place_meeting(x, y + y_vel, Obj_enemyWall)) {
+    while (!place_meeting(x, y + sign(y_vel), ObJ_noSeeWall)) and  (!place_meeting(x, y + sign(y_vel), Obj_enemyWall))   {
         y += sign(y_vel);
     }
     y_vel = 0;
