@@ -18,7 +18,7 @@ canjump -= 1;
 if (canjump > 0) && key_jump {
 	y_vel = -27;
 	canjump = 0;
-	//audio_play_sound(jump, 2, false);
+	audio_play_sound(player_Jump,2,false);
 }
 
 //movement

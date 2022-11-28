@@ -1,0 +1,1 @@
+Text = "Collect the [name of item]'s to get more points! Good luck!!"

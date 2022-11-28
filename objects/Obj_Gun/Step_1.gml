@@ -12,7 +12,7 @@ if(mouse_check_button(mb_left)) and (fire_delay < 0){
 
     fire_delay = 7.5;
     with(instance_create_layer(x,y,"bullets", Obj_Bullet)){
-     //   audio_play_sound(shootshoot,1000,false);
+		audio_play_sound(moneyShoot,1000,false);
         speed = 25;
         direction = other.image_angle + random_range(-3,3);
         image_angle = direction;
