@@ -51,6 +51,7 @@ y += y_vel;
 // death
 if (hp) <= 0
 {
+	with(obj_score) score = score + 1;
 	audio_sound_pitch(enemy_Death, random_range(0.8, 1.2));
 	audio_play_sound(enemy_Death, 1, false);
     instance_destroy();

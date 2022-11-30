@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "player_Jump",
+  "name": "playerJump",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -12,10 +12,10 @@
   "sampleRate": 44100,
   "bitDepth": 1,
   "bitRate": 128,
-  "volume": 0.8,
+  "volume": 1.0,
   "preload": false,
-  "soundFile": "player_Jump.wav",
-  "duration": 0.393288,
+  "soundFile": "playerJump.wav",
+  "duration": 0.253968,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

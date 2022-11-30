@@ -1,17 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-max_speed = 5;
-run_speed = max_speed;
+run_speed = 5;
 
 jump_vel = 28;
 x_vel = 0;
 y_vel = 0;
 canjump = 0;
 
-hp = 50;
+lives = 50;
 
 y_gravity = 0.7;
 max_gravity = 5;
 
-ivf =0;
+ivf = 0;
+hascontrol = true;
