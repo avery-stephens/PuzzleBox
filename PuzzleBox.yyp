@@ -26,7 +26,6 @@
     {"id":{"name":"enemy_Death","path":"sounds/enemy_Death/enemy_Death.yy",},"order":2,},
     {"id":{"name":"spr_playerIdle","path":"sprites/spr_playerIdle/spr_playerIdle.yy",},"order":7,},
     {"id":{"name":"playerHurt","path":"sounds/playerHurt/playerHurt.yy",},"order":3,},
-    {"id":{"name":"tempp","path":"sprites/tempp/tempp.yy",},"order":16,},
     {"id":{"name":"Obj_PLayer","path":"objects/Obj_PLayer/Obj_PLayer.yy",},"order":2,},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"order":8,},
     {"id":{"name":"ObJ_noSeeWall","path":"objects/ObJ_noSeeWall/ObJ_noSeeWall.yy",},"order":0,},

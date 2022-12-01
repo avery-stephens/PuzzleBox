@@ -1,10 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-/// @description Insert description here
-// You can write your code in this editor
-
-
 enum estate{
 	patrol,
 	chase,
@@ -13,22 +9,12 @@ enum estate{
 
 }
 
+walkspeed = 3;
+hsp = walkspeed;
+vsp = 0;
+grv = 0.3;
+
+hp = 5;
+is_hit = false;
 
 state = estate.idol
-
-
-max_speed = 2;
-run_speed = max_speed;
-
-jump_vel = 5;
-x_vel = 0;
-y_vel = 0;
-
-hp = 4;
-
-y_gravity = 0.2;
-max_gravity = 5;
-is_hit = false
-killed_Amount = 0;
-
-
