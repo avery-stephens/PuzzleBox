@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-run_speed = 5;
+run_speed = 6;
 
 jump_vel = 28;
 x_vel = 0;

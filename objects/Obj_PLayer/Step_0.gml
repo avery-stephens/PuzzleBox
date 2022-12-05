@@ -72,6 +72,27 @@ if(ivf > 0){
 ivf--;
 }
 
+if(lives <= 0)
+{
+	instance_destroy();
+	room_goto(rm_gameOver);
+	score = 0;
+}
+
+if (!place_meeting(x, y + 1, ObJ_noSeeWall)) {
+	image_speed = 0;
+	sprite_index = spr_playerJump;
+	if (sign(y_vel) > 0) image_index = 1; else image_index = 0;
+} else {
+	canjump = 0;
+	image_speed = 0.6;
+	if (x_vel == 0) {
+		sprite_index = spr_playerIdle;
+	} else {
+		sprite_index = spr_playerWalk;
+	}
+}
+
 if(key_left)
 {
 	image_xscale = -1;

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_CoinEnemy",
   "spriteId": {
-    "name": "spr_EnemyIdle",
-    "path": "sprites/spr_EnemyIdle/spr_EnemyIdle.yy",
+    "name": "spr_EnemySneaky",
+    "path": "sprites/spr_EnemySneaky/spr_EnemySneaky.yy",
   },
   "solid": false,
   "visible": true,
